@@ -9,7 +9,6 @@ const crypto = require('crypto');
 const Quotes = require('./models/quotesSchema');
 const Expiry=require('./models/expirySchema');
 const dbURL=process.env.DB_URL || 'mongodb://127.0.0.1:27017/quotes'
-mongoose.connect(dbURL);
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'Connection error:'));
