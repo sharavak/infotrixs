@@ -1,2 +1,2 @@
 # infotrixs
-This repository contains week 1 task of Backend Development intern
+This repository contains projects of Backend Development intern.
